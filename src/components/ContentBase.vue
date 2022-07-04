@@ -7,6 +7,10 @@
         </div>
       </div>
     </div>
+    <footer>
+      <hr>
+      © copyright&nbsp;|&nbsp;Home&nbsp;|&nbsp;zimei
+    </footer>
   </div>
 </template>
 
@@ -19,7 +23,19 @@ export default {
 </script>
 
 <style scoped>
-.card{
+.card {
   margin-top: 20px;
+}
+
+/* 页脚 */
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.html,body{
+  background-color: aquamarine;
 }
 </style>
