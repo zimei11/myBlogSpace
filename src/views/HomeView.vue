@@ -1,25 +1,19 @@
 <template>
-  <div class="home">
-    <div class="container">
-      <div class="card">
-        <div class="card-body">
-          首页
-        </div>
-      </div>
-    </div>
-  </div>
+  <ContentBase>
+    首页
+  </ContentBase>
 </template>
 
 <script>
+import ContentBase from '../components/ContentBase';
+
 export default {
   name: 'HomeView',
   components: {
+    ContentBase,
   }
 }
 </script>
 
-<style>
-.card{
-  margin-top: 20px;
-}
+<style scoped>
 </style>
