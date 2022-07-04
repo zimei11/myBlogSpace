@@ -2,7 +2,7 @@
     <ContentBase>
         <div class="row">
             <div class="col-3">
-                <UserProfileInfo />
+                <UserProfileInfo @follow="follow" @unfollow="unfollow" :user="user" />
             </div>
             <div class="col-9">
                 <UserProfilePost />
@@ -24,17 +24,30 @@ export default {
         UserProfileInfo,
         UserProfilePost
     },
-    setup(){
-        const user=reactive({
-            username:"lixishi",
-            lastname:"Yan",
-            firstname:"Xishi",
-            followerCount:0,
-            is_followed:false,
+    setup() {
+        const user = reactive({
+            userName: "lixishi",
+            lastName: "Li",
+            firstName: "Xishi",
+            followerCount: 0,
+            is_followed: false,
         });
 
-        return{
-            user:user
+        const follow = () => {
+            if (user.is_followed) return;
+            user.is_followed = true;
+            user.followerCount++;
+        };
+        const unfollow = () => {
+            if (!user.is_followed) return;
+            user.is_followed = false;
+            user.followerCount--;
+        }
+
+        return {
+            user,
+            follow,
+            unfollow,
         }
     }
 }
