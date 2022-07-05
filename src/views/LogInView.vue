@@ -1,6 +1,8 @@
 <template>
     <ContentBase>
-        登录页面
+        <div class="alert alert-primary" role="alert">
+            <strong>登录界面</strong> <a href="https://www.baidu.com" class="alert-link">访问本人博客</a>
+        </div>
     </ContentBase>
 </template>
 

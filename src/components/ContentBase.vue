@@ -10,6 +10,7 @@
     <footer>
       <hr>
       © copyright&nbsp;|&nbsp;Home&nbsp;|&nbsp;zimei
+      <div>&nbsp;</div>
     </footer>
   </div>
 </template>
@@ -29,8 +30,8 @@ export default {
 
 /* 页脚 */
 footer {
-  position: fixed;
-  bottom: 10px;
+  /* position: fixed;
+  bottom: 10px; */
   width: 100%;
   text-align: center;
 }
