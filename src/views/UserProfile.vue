@@ -5,7 +5,7 @@
                 <UserProfileInfo @follow="follow" @unfollow="unfollow" :user="user" />
             </div>
             <div class="col-9">
-                <UserProfilePost />
+                <UserProfilePost :posts="posts"/>
             </div>
         </div>
     </ContentBase>
@@ -25,6 +25,7 @@ export default {
         UserProfilePost
     },
     setup() {
+        // 用户信息
         const user = reactive({
             userName: "lixishi",
             lastName: "Li",
@@ -32,6 +33,28 @@ export default {
             followerCount: 0,
             is_followed: false,
         });
+
+        // 帖子
+        const posts=reactive({
+            count:3,
+            posts:[
+                {
+                    id:1,
+                    userId:1,
+                    content:"今天上了web课真开心",
+                },
+                {
+                    id:2,
+                    userId:1,
+                    content:"今天上了算法课更开心了",
+                },
+                {
+                    id:3,
+                    userId:1,
+                    content:"今天上了acwing，开心极了!",
+                },
+            ]
+        })
 
         const follow = () => {
             if (user.is_followed) return;
@@ -48,6 +71,7 @@ export default {
             user,
             follow,
             unfollow,
+            posts,
         }
     }
 }

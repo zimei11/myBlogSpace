@@ -3,7 +3,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-3">
-                    <img class="img-fluid"
+                    <img style="width: 45px ;height: 45;"
                         src="https://cdn.acwing.com/media/user/profile/photo/113094_lg_db881120f8.jpg" alt="">
                 </div>
                 <div class="col-9">
