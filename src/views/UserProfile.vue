@@ -30,6 +30,7 @@ export default {
     setup() {
         // 用户信息
         const user = reactive({
+            id: 1,
             userName: "lixishi",
             lastName: "Li",
             firstName: "Xishi",

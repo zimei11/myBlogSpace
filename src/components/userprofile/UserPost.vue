@@ -3,9 +3,9 @@
         <div class="card-body">
             <div v-for="post in posts.posts" :key="post.id">
             <div class="card single-post">
-                <dev class="card-body">
+                <div class="card-body">
                     {{post.content}}
-                </dev>
+                </div>
             </div>
             </div>
         </div>
@@ -20,7 +20,7 @@ export default {
             type: Object,
             required: true,
         }
-    },
+    }
 }
 </script>
 
