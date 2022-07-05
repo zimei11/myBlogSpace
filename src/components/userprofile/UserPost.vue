@@ -1,8 +1,8 @@
 <template>
-    <div class="card">
+    <div class="card  bg-light" >
         <div class="card-body">
             <div v-for="post in posts.posts" :key="post.id">
-            <div class="card">
+            <div class="card single-post">
                 <dev class="card-body">
                     {{post.content}}
                 </dev>
@@ -25,4 +25,7 @@ export default {
 </script>
 
 <style scoped>
+.single-post{
+    margin-bottom: 10px;
+}
 </style>
