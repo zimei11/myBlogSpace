@@ -8,7 +8,7 @@
       </div>
     </div>
     <footer>
-      <hr>
+      <hr class="style1">
       © copyright&nbsp;|&nbsp;Home&nbsp;|&nbsp;zimei
       <div>&nbsp;</div>
     </footer>
@@ -38,5 +38,10 @@ footer {
 
 .html,body{
   background-color: aquamarine;
+}
+
+/* 水平线 */
+hr.style1{
+	border-top: 1px solid #8c8b8b;
 }
 </style>

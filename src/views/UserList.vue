@@ -8,11 +8,16 @@
 
 <script>
 import ContentBase from "../components/ContentBase";
+// import $ from 'jquery';
+
 
 export default {
     name: "UserList",
     components: {
         ContentBase,
+    },
+    setup(){
+
     }
 }
 </script>
