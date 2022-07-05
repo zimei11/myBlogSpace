@@ -14,10 +14,10 @@
 import { ref } from 'vue';
 export default {
     name: "UserWrite",
-    setup() {
+    setup(props,context) {
         let content = ref('');
         const post_a_post = () => {
-            console.log(content.value);
+            context.emit('post_a_post',content.value);
             content.value="";
         };
 
