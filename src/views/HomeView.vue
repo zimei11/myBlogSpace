@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-md-6">
         <!-- 轮播 -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -48,13 +48,14 @@
         </div>
 
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
         <!-- 公告card -->
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">公告</h5>
             <h6 class="card-subtitle mb-2 text-muted">note</h6>
-            <p class="card-text"><a href="https://www.botzone.org.cn/static/gamecontest2021s.html">点击进入</a>第十三届北京大学游戏对抗赛主页</p>
+            <p><a class="card-link"
+                href="https://www.botzone.org.cn/static/gamecontest2021s.html">点击进入</a>第十三届北京大学游戏对抗赛主页</p>
             <p>
               欲查规则？点击
               <a href="#" class="card-link">游戏规则</a>
@@ -136,11 +137,5 @@ a:hover {
 a {
   /*完全清除超链接下划线效果*/
   text-decoration: none;
-}
-/* 轮播图 */
-@media(max-width: 768px) {
-    #carouselExampleCaptions {
-        top: 30%;
-    }
 }
 </style>
