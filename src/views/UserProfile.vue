@@ -1,11 +1,11 @@
 <template>
     <ContentBase>
         <div class="row">
-            <div class="col-3">
+            <div class="col-md-3">
                 <UserProfileInfo @follow="follow" @unfollow="unfollow" :user="user" />
                 <UserWrite @post_a_post="post_a_post" />
             </div>
-            <div class="col-9">
+            <div class="col-md-9">
                 <UserProfilePost :posts="posts" />
             </div>
         </div>
