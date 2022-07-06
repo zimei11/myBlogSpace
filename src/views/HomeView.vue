@@ -12,7 +12,7 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
+          <div class="carousel-inner imgboder">
             <div class="carousel-item active">
               <img src="https://img.zimei.xyz/202207041928071.png" class="d-block w-100" alt="图片挂掉了(ಥ _ ಥ)">
               <div class="carousel-caption d-none d-md-block">
@@ -137,5 +137,10 @@ a:hover {
 a {
   /*完全清除超链接下划线效果*/
   text-decoration: none;
+}
+
+/* 轮播圆角 */
+.imgboder{
+  border-radius: 0.5rem;
 }
 </style>
