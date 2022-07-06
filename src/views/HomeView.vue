@@ -79,7 +79,7 @@
   <ContentBase>
     <div>
 
-      <div class="alert alert-info">
+      <div class="alert alert-success">
         <strong>Welcome</strong> 导航
       </div>
 
@@ -136,5 +136,11 @@ a:hover {
 a {
   /*完全清除超链接下划线效果*/
   text-decoration: none;
+}
+/* 轮播图 */
+@media(max-width: 768px) {
+    #carouselExampleCaptions {
+        top: 30%;
+    }
 }
 </style>
