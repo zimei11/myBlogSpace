@@ -50,7 +50,7 @@
       </div>
       <div class="col-md-6">
         <!-- 公告card -->
-        <div class="card">
+        <div class="card shadow-sm ">
           <div class="card-body">
             <h5 class="card-title">公告</h5>
             <h6 class="card-subtitle mb-2 text-muted">note</h6>
@@ -143,4 +143,5 @@ a {
 .imgboder{
   border-radius: 0.5rem;
 }
+
 </style>
