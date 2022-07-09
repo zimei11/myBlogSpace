@@ -12,7 +12,7 @@
                         <a class="nav-link" aria-current="page" href="/">首页</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/userlist">好友列表</a>
+                        <a class="nav-link" href="/userlist">用户列表</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/userprofile">用户动态</a>
