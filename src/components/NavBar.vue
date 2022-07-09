@@ -15,7 +15,7 @@
                         <a class="nav-link" href="/userlist">用户列表</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/userprofile">用户动态</a>
+                        <router-link class="nav-link" :to="{name: 'userprofile',params:{userId: 2}}">用户动态</router-link>
                     </li>
                 </ul>
                 <ul class="navbar-nav">

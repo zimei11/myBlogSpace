@@ -18,6 +18,7 @@ import UserProfileInfo from "../components/userprofile/UserInfo"
 import UserProfilePost from "../components/userprofile/UserPost"
 import UserWrite from "@/components/userprofile/UserWrite"
 import { reactive } from "vue"
+import {  useRoute } from "vue-router"
 
 export default {
     name: "UserProfile",
@@ -28,6 +29,9 @@ export default {
         UserWrite,
     },
     setup() {
+        const route=useRoute();
+        const userId=route.params.userId;
+        console.log(userId);
         // 用户信息
         const user = reactive({
             id: 1,
