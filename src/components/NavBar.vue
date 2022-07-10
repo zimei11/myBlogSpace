@@ -23,7 +23,7 @@
                         <a class="nav-link" href="/login">登录</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="regist">注册</a>
+                        <a class="nav-link" href="/regist">注册</a>
                     </li>
                 </ul>
             </div>
