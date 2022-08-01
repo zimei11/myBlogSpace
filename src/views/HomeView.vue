@@ -14,21 +14,21 @@
           </div>
           <div class="carousel-inner imgboder">
             <div class="carousel-item active">
-              <img src="https://img.zimei.xyz/202207041928071.png" class="d-block w-100" alt="图片挂掉了(ಥ _ ಥ)">
+              <img src="https://img.zimei.fun/202207041928071.png" class="d-block w-100" alt="图片挂掉了(ಥ _ ಥ)">
               <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="http://img.zimei.xyz/202201272327591.jpg" class="d-block w-100" alt="图片挂掉了(ಥ _ ಥ)">
+              <img src="http://img.zimei.fun/202201272327591.jpg" class="d-block w-100" alt="图片挂掉了(ಥ _ ಥ)">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="http://img.zimei.xyz/202201282308685.jpeg" class="d-block w-100" alt="图片挂掉了(ಥ _ ಥ)">
+              <img src="http://img.zimei.fun/202201282308685.jpeg" class="d-block w-100" alt="图片挂掉了(ಥ _ ಥ)">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
@@ -99,7 +99,7 @@
       <p>是的啊</p>
       <p>
         <a href="https://www.zimei.xyz/" target="_blank">
-          <img src="http://img.zimei.xyz/202201282100719.gif" width="" />
+          <img src="http://img.zimei.fun/202201282100719.gif" width="" />
         </a>
       </p>
     </div>
